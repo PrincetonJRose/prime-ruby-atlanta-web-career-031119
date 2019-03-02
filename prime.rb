@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(number)
+  number = number.abs
   if number == 1
     return false
   end
